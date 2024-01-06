@@ -789,6 +789,7 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  display: flex;
 }
 
 .span-checkbox {
@@ -803,4 +804,7 @@ ol {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+
+.checkbox-icon {
 }
