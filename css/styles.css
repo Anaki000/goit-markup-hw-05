@@ -658,7 +658,7 @@ ol {
   padding: 72px 24px 24px 24px;
 }
 
-.button-close {
+.close-button {
   position: absolute;
   top: 24px;
   right: 24px;
@@ -676,16 +676,26 @@ ol {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.close-button:hover {
+  background-color: #404bbf;
+  border: none;
+}
+
+.close-button:focus {
+  background-color: #404bbf;
+  border: none;
+}
+
 .icon-close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #2e2f42;
 }
 
-.button-close:hover .icon-close {
+.close-button:hover .icon-close {
   fill: #ffffff;
 }
 
-.button-close:focus .icon-close {
+.close-button:focus .icon-close {
   fill: #ffffff;
 }
 
