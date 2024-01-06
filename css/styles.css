@@ -815,7 +815,6 @@ ol {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  display: inline-flex;
 }
 
 .checkbox-icon {
